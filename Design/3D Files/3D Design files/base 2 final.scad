@@ -65,7 +65,7 @@ translate([bb_c1+(bb_s1/2),bb_c2+(bb_s1/2),0]) cylinder(r=(bb_scrw_dia_s/2)+0.25
 
 
 //center motor shaft hole
-translate([bb_c1,bb_c2,0]) cylinder(r=15,h=10,$fn=500);
+translate([bb_c1,bb_c2,0]) cylinder(r=17,h=10,$fn=500);
 
 //center motor rivet holes
 translate([bb_c1,bb_c2+mref3,0]) cylinder(r=rvt_rad,h=10,$fn=500);
@@ -123,6 +123,7 @@ translate([(cb_w/2)+(pcb_w/2),-cb1_l+5+cstr_l+45+30,0]) cylinder(r=(chs_scrw_dia
 
 translate([(cb_w/2)-(pcb_w/2),-cb1_l+5+cstr_l+45+30-53,0]) cylinder(r=(chs_scrw_dia/2)+0.25,h=40,$fn=50);
 translate([(cb_w/2)+(pcb_w/2),-cb1_l+5+cstr_l+45+30-53,0]) cylinder(r=(chs_scrw_dia/2)+0.25,h=40,$fn=50);
+
 
 }
 
